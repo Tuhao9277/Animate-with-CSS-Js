@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ui id="scence">
+        <li class="layer" data-depth=".1">
+          <img src="./images/text.png" alt="" />
+        </li>
+        <li class="layer" data-depth="1">
+          <img src="./images/planet1.png" alt="" />
+        </li>
+        <li class="layer" data-depth="-1">
+          <img src="./images/planet2.png" alt="" />
+        </li>
+        <li class="layer" data-depth="2">
+          <img src="./images/astronaut.png" alt="" />
+        </li>
+        <li class="layer" data-depth="0.5">
+          <img src="./images/rocket.png" alt="" />
+        </li>
+      </ui>
+    </div>
+    <script type="text/javascript" src="parallax.js"></script>
+    <script type="text/javascript">
+      const scence = document.querySelector('#scence');
+      const parallax = new Parallax(scence);
+    </script>
+  </body>
+</html>
