@@ -14,10 +14,10 @@ function handler(event) {
     // 当前鼠标在页面上的位置
     let moveX = event.clientX - diffX;
     if (moveX < 0) {
-      // 如果超出窗口，则置为0
+      // 如果向左超出窗口，则置为0
       moveX = 0;
     } else if (moveX > mainWidth - bar.offsetWidth) {
-      // 否则的话 置为父元素最大宽度
+      // 向右超出父元素的话 置为父元素最大宽度
       moveX = mainWidth;
     }
     // moveX为新坐标的位置 ，现在要转化为百分比
