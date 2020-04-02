@@ -1,0 +1,32 @@
+.container {
+  width: 1000px;
+}
+
+.container .main {
+  width: inherit;
+  height: 300px;
+  display: flex;
+}
+.contain{
+  overflow: hidden;
+}
+.container .main .left {
+  width: 50%;
+  height: 100%;
+  background: #2196f3;
+}
+
+.container .main .right {
+  width: 50%;
+  height: 100%;
+  background: #4eff28;
+}
+
+.container .scroll {
+  position: relative;
+  width: 12px;
+  margin-left: -6px;
+  height: 100%;
+  background-color: #214132;
+  cursor: ew-resize;
+}
