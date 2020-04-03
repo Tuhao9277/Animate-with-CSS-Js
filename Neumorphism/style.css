@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #dde1e7;
+}
+
+.neumorphism-1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 10px rgba(94, 104, 121, .288);
+}
+
+.neumorphism-2 {
+  margin: 15px;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #dde1e7;
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 10px rgba(94, 104, 121, .288);
+}
+
+.neumorphism-3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 10px rgba(94, 104, 121, .288);
+}
+
+.neumorphism-3:after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 10px rgba(94, 104, 121, .288);
+
+
+}
