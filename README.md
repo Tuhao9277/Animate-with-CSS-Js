@@ -12,6 +12,8 @@ CSS Demo 练习
 | Responsive Box Model UI           | 响应式 Box 布局               |
 | Neumorphism                       | 浮雕风格                      |
 | Sticky Scrolling Effects          | 粘性滚动                      |
+| Glowing Gradient Border           | 发光渐变的边框                |
+| Lighting Cities                   | 点亮城市                      |
 
 #### todo：
 
