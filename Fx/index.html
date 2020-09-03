@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <style>
+    section {
+      width: 240px;
+      height: 40px;
+    }
+    div {
+      width: 240px;
+      height: 40px;
+      background-color: aquamarine;
+      position: relative;
+    }
+    section video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+  <body>
+    <section>
+      <div>
+        <video src="Frost.mp4" muted loop autoplay type="mp4" />
+      </div>
+    </section>
+  </body>
+</html>

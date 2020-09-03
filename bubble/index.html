@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #03080a;
+      }
+      .pop {
+        width: 200px;
+        height: 200px;
+        background: green;
+        border-radius: 100px 100px 0px 100px;
+        transform-origin: 100% 100%;
+        transform: scale(1);
+        animation: scale 1s ease-in-out;
+      }
+      @keyframes scale {
+        0% {
+          transform: scale(0);
+        }
+        25% {
+          transform: scale(1.6);
+        }
+        50% {
+          transform: scale(1);
+        }
+        75% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pop">
+      123
+    </div>
+  </body>
+</html>
