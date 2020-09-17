@@ -1,0 +1,52 @@
+tr {
+  border-bottom: 1px solid #333;
+  opacity: 0;
+  background: #333;
+  color: #fff;
+  transform: rotateX(45deg);
+  -webkit-transform: rotateX(45deg);
+  transform-origin: top center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tbody {
+  -webkit-perspective: 500;
+  /* Safari and Chrome */
+  perspective: 500;
+}
+
+tr:first-of-type {
+  animation: menu5 0.15s ease-in-out forwards;
+  animation-delay: 0.1s;
+}
+
+tr:nth-of-type(2) {
+  animation: menu5 0.15s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+tr:nth-of-type(3) {
+  animation: menu5 0.15s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+tr:last-of-type {
+  animation: menu5 0.15s ease-in-out forwards;
+  animation-delay: .4s;
+}
+
+@keyframes menu5 {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0);
+
+  }
+}
