@@ -14,6 +14,7 @@ CSS Demo 练习
 | Sticky Scrolling Effects          | 粘性滚动                      |
 | Glowing Gradient Border           | 发光渐变的边框                |
 | Lighting Cities                   | 点亮城市                      |
+| CSS-Creative-Typography           | CSS 创意排版                  |
 
 #### todo：
 
